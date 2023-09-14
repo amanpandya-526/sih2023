@@ -16,6 +16,7 @@
     width: 100%;
     height: 100%;
     background-attachment: fixed;
+    background-image: url('images/background-index.jpg');
   }
   
   body {
@@ -29,7 +30,6 @@
     margin: auto;
     padding: 36px 48px 48px 48px;
     background-color: #f2efee;
-  
     border-radius: 11px;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   }
@@ -57,8 +57,18 @@
     padding: 1.2rem;
     border-radius: 9px;
     border: none;
+    font-weight: 600;
   }
-  
+
+  .login-form select {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 9px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
   .login-form input:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(253, 242, 233, 0.5);
@@ -69,6 +79,7 @@
     color: #fdf2e9;
     align-self: end;
     padding: 8px;
+    margin-top:20px;
   }
   
   .btn,

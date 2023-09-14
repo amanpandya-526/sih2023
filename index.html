@@ -7,18 +7,17 @@
 </head>
 <body>
     <div class="container">
+        <h2 class="login-title"><img src="https://cdn.vectorstock.com/i/preview-1x/83/18/law-firm-symbol-with-scales-of-justice-vector-13228318.jpg"height="15%" data-id="13228318" data-title="law firm symbol with scales of justice"data-ratio="0.968" alt="law firm symbol with scales of justice vector" class="secondlogo" style="mix-blend-mode:multiply;"></h2>
         <h2 class="login-title">Log in</h2>
     
         <form class="login-form">
           <div>
-            <label for="name">Name </label>
-            <input
-                   id="name"
-                   type="text"
-                   placeholder="Enter the name"
-                   name="name"
-                   required
-                   />
+            <label for="name">Login As :</label>
+            <select id="name">
+                <option disabled selected>Login As</option>
+                <option value="lawyer">Lawyer</option>
+                <option value="judge">Judge</option>
+            </select>
           </div>
     
           <div>
@@ -26,7 +25,7 @@
             <input
                    id="email"
                    type="email"
-                   placeholder=""
+                   placeholder="Enter Enrollment no."
                    name="email"
                    required
                    />
@@ -42,7 +41,6 @@
                    required
                    />
           </div>
-    
           <button class="btn btn--form" type="submit" value="Log in">
             Log in
           </button>
