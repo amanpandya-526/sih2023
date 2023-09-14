@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="width:50%;">
+        <h2 class="login-title"><img src="https://cdn.vectorstock.com/i/preview-1x/83/18/law-firm-symbol-with-scales-of-justice-vector-13228318.jpg"height="15%" data-id="13228318" data-title="law firm symbol with scales of justice"data-ratio="0.968" alt="law firm symbol with scales of justice vector" class="secondlogo" style="mix-blend-mode:multiply;"></h2>
+        <h2 class="login-title">E Filling</h2>
+            <h4>Please fill in this form appropriate.</h4>
+            <h4 style="color:red;">All (*) marks fields are mandatory.</h4>
+            <hr>
+            <br>
+        <form class="login-form">
+          <div>
+            <label for="email"><b>State</b></label>
+            <input type="text" placeholder="Enter State" name="email" required>
+        </div>
+            <div>
+            <label for="email"><b>District</b></label>
+            <input type="text" placeholder="Enter District" name="email" required>
+            </div>
+            <div>        
+            <label for="psw"><b>Case type</b></label>
+            <select>
+                <option selected disabled>Case type</option>
+                <option value="Civil">Civil</option>
+                <option value="Criminal">Criminal</option>
+                <option value="Matrimonial">Matrimonial</option>
+                <option value="Juvenile">Juvenile</option>
+            </select>
+            </div>
+            <div>
+            <label for="psw"><b>Under Section</b></label>
+            <input type="text" placeholder="Under Section" name="psw" required>
+            </div>        
+            <div>        
+            <label for="psw-repeat"><b>Pdf form</b></label>
+            <input type="file" id="file" name="file" multiple accept="application/pdf" />  
+            </div>
+    
+          <button class="btn btn--form" type="submit" value="Log in">
+            Submit
+          </button>
+        </form>
+    </div>
+</body>
+</html>
